@@ -210,6 +210,9 @@ The challenging part of this assignment for me was the use of setters and getter
 
 ## Execution 
 
+![pycharm assignment 8](https://user-images.githubusercontent.com/25311063/110186480-03344880-7ddb-11eb-82f5-d138eed3fed6.PNG)
+
+![idle assignment 8](https://user-images.githubusercontent.com/25311063/110186502-15ae8200-7ddb-11eb-9447-65ee1ceeb0b7.PNG)
 
 ## Summary
 
