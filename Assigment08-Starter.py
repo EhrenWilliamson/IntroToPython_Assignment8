@@ -71,7 +71,7 @@ class FileProcessor:
     def save_data_to_file(file_name,list_of_product_objects):
         file = open(file_name, "w")
         for item in list_of_product_objects:
-            file.write(str(item)+ "\n")
+            file.write(str(item) + "\n")
 
         file.close()
         return "Success"
@@ -80,7 +80,9 @@ class FileProcessor:
         file = open(file_name, "r")
         for item in file:
             productSplit = item.split(",")
-            addingProduct = Product(productSplit[0],productSplit[1])
+            addingProduct = Product(productSplit[0].rstrip(),productSplit[1].rstrip())
+            
+            
             lstOfProductObjects.append(addingProduct)
         file.close()
     def __doc__():
@@ -167,8 +169,4 @@ while(True):
         print("Not a valid selection")
         IO.print_menu_tasks()
         choices = IO.get_user_choice()
-
-
-
-
 
