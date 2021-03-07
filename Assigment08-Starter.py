@@ -83,7 +83,7 @@ class FileProcessor:
             addingProduct = Product(productSplit[0],productSplit[1])
             lstOfProductObjects.append(addingProduct)
         file.close()
-     def __doc__():
+    def __doc__():
         print("Very simple class that takes in a file name and/or list of product objects and does read/write operations")
     # TODO: Add Code to process data from a file
     # TODO: Add Code to process data to a file
@@ -127,7 +127,7 @@ class IO:
         newProduct = Product(product_name,product_price)
         return newProduct
         
-     def __doc__():
+    def __doc__():
         print("Creates IO functionality to make the main script easier to read")
 # Presentation (Input/Output)  -------------------------------------------- #
 
@@ -167,5 +167,8 @@ while(True):
         print("Not a valid selection")
         IO.print_menu_tasks()
         choices = IO.get_user_choice()
+
+
+
 
 
